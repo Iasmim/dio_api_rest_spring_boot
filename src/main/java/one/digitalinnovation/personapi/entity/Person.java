@@ -20,10 +20,10 @@ public class Person {
     private Long id;
 
     @Column(nullable = false)
-    private  String firstname;
+    private  String firstName;
 
     @Column(nullable = false)
-    private  String lastname;
+    private  String lastName;
 
     @Column(nullable = false, unique = true)
     private  String cpf;
